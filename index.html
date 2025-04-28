@@ -227,7 +227,7 @@
         secretBtn.addEventListener('click', () => {
             clickCount++;
             if(clickCount === 5) {
-                const newProb = prompt('Введите процент выпадения орла (1-99):');
+                const newProb = prompt('Введите процент выпадения решки (1-99):');
                 if(newProb && newProb > 0 && newProb < 100) {
                     customProbability = newProb;
                     alert(`Установлен новый процент: ${newProb}%`);
